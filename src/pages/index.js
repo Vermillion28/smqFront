@@ -43,9 +43,9 @@ export default function Home() {
 
             <div className={`${styles.section} ${styles.fonctionnalites}`} id="fonctionnalites">
                 <h1>Toutes les Fonctionnalités pour votre <span className={styles.gradientText}>SMQ</span></h1>
-                <h2>Une suite complète d'outils conçus pour simplifier et optimiser la gestion de votre système de management de la qualité.</h2>
+                <h2>Une suite complète d&apos;outils conçus pour simplifier et optimiser la gestion de votre système de management de la qualité.</h2>
                 <div className={styles.featuresGrid}>
-                    <div><CardIndex Icone={FaFileAlt} title="Gestion documentaire" description="Centralisez tous vos documents qualité avec un système de versioning automatique et des workflows d'approbation." /></div>
+                    <div><CardIndex Icone={FaFileAlt} title="Gestion documentaire" description="Centralisez tous vos documents qualité avec un système de versioning automatique et des workflows d&apos;approbation." /></div>
                     <div><CardIndex Icone={FaList} title="Audits et Contrôle qualité" description="Planifiez et suivez vos audits internes avec des modèles personnalisables et des rapports automatisés." /></div>
                     <div><CardIndex Icone={FaExclamationTriangle} title="Non-conformités" description="Enregistrez, analysez et suivez le traitement des non-conformités avec des actions correctives et préventives." /></div>
                     <div><CardIndex Icone={FaChartLine} title="Indicateurs de performance" description="Tableaux de bord en temps réel avec KPIs personnalisés pour piloter efficacement votre système qualité." /></div>
@@ -60,7 +60,7 @@ export default function Home() {
 
                     <CardFeatures chiffre="100%" chiffreH2="De conformité" title="Conformité garantie" description="Restez toujours conforme aux exigences réglementaires avec nos mises à jour automatiques." />
 
-                    <CardFeatures chiffre="+45%" chiffreH2="D'engagement d'équipe" title="Collaboration Renforcée" description="Fédérez vos équipes autour de la qualité avec des outils collaboratifs intuitifs." />
+                    <CardFeatures chiffre="+45%" chiffreH2="D&apos;engagement d&apos;équipe" title="Collaboration Renforcée" description="Fédérez vos équipes autour de la qualité avec des outils collaboratifs intuitifs." />
                 </div>
             </div>
 
@@ -95,7 +95,7 @@ export default function Home() {
                         <h3>Support</h3>
                         <ul>
                             <li><a href="#">Documentation</a></li>
-                            <li><a href="#">Centre d'aide</a></li>
+                            <li><a href="#">Centre d&apos;aide</a></li>
                             <li><a href="#">Contact</a></li>
                             <li><a href="#">Formation</a></li>
                         </ul>
@@ -107,7 +107,7 @@ export default function Home() {
                         © 2024 QualityPro. Tous droits réservés.
                     </div>
                     <div className={styles.footerLegal}>
-                        <a href="#">Conditions d'utilisation</a>
+                        <a href="#">Conditions d&apos;utilisation</a>
                         <a href="#">Politique de confidentialité</a>
                     </div>
                 </div>

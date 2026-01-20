@@ -91,7 +91,7 @@ export default function Inscription() {
         else if (data.message) {
           toast.error(data.message);
         } else {
-          toast.error(data.message || "Erreur lors de l'inscription");
+          toast.error(data.message || "Erreur lors de l&apos;inscription");
         }
       }
     } catch (error) {
@@ -111,7 +111,7 @@ export default function Inscription() {
             </h1>
             <p className={styles.illustrationSubtitle}>
               Optimisez vos processus qualité, assurez la conformité ISO et
-              améliorez l'efficacité de votre organisation avec notre plateforme
+              améliorez l&apos;efficacité de votre organisation avec notre plateforme
               innovante de gestion SMQ.
             </p>
             <div className={styles.features}>
@@ -253,7 +253,7 @@ export default function Inscription() {
 
               <div className={styles.footerText}>
                 En créant un compte, vous acceptez nos
-                <a href="#"> Conditions d'utilisation</a> et notre
+                <a href="#"> Conditions d&apos;utilisation</a> et notre
                 <a href="#"> Politique de confidentialité</a>
               </div>
             </div>

@@ -116,7 +116,7 @@ export default function Dashboard() {
                     {/* Header */}
                     <div className={styles.header}>
                         <h1>Tableau de Bord SMQ</h1>
-                        <p>Vue d'ensemble de votre système de management de la qualité</p>
+                        <p>Vue d&apos;ensemble de votre système de management de la qualité</p>
                     </div>
 
                     {/* Stats Cards */}
@@ -178,7 +178,7 @@ export default function Dashboard() {
                                         <AlertTriangle className={`${styles.icon} ${styles.orange}`} />
                                         <div className={styles.actionContent}>
                                             <h4>Signaler Non-Conformité</h4>
-                                            <p>Nouveau rapport d'incident</p>
+                                            <p>Nouveau rapport d&apos;incident</p>
                                         </div>
                                     </button>
 
@@ -186,7 +186,7 @@ export default function Dashboard() {
                                         <BarChart3 className={`${styles.icon} ${styles.purple}`} />
                                         <div className={styles.actionContent}>
                                             <h4>Planifier une Activité</h4>
-                                            <p>Nouveau calendrier d'audit</p>
+                                            <p>Nouveau calendrier d&apos;audit</p>
                                         </div>
                                     </button>
                                 </div>
