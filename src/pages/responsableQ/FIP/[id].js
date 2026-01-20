@@ -70,7 +70,7 @@ export default function ProcessusDetails() {
                 <div className={styles.errorContainer}>
                     <div className={styles.errorContent}>
                         <h2>Processus non trouvé</h2>
-                        <p>Le processus que vous recherchez n'existe pas ou a été supprimé.</p>
+                        <p>Le processus que vous recherchez n&apos;existe pas ou a été supprimé.</p>
                         <button 
                             onClick={() => router.push('/responsableQ/processus')}
                             className={styles.primaryButton}
