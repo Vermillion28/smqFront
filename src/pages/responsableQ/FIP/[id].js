@@ -188,7 +188,7 @@ export default function ProcessusDetails() {
                                 </div>
                                 <div>
                                     <h2>ENTREPRISE XYZ</h2>
-                                    <p>Fiche d'identité du processus</p>
+                                    <p>Fiche d&apos;identité du processus</p>
                                 </div>
                             </div>
                             <div className={styles.ficheMeta}>
@@ -248,7 +248,7 @@ export default function ProcessusDetails() {
                                         <p>{processus.finalité || 'Non définie'}</p>
                                     </div>
                                     <div className={styles.fieldGroup}>
-                                        <label>Champs d'application :</label>
+                                        <label>Champs d&apos;application :</label>
                                         <p>{processus.champs_application || 'Non définis'}</p>
                                     </div>
                                 </div>
