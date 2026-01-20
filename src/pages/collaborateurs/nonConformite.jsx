@@ -6,16 +6,13 @@ import styles from "@/styles/nonConformite.module.css";
 import LayoutCollab from "@/Layout/layoutCollab";
 import { MyButton } from "@/components/myButtonComponent";
 import { CardNC, CardProcessus } from "@/components/MycardComponent";
-import { processusDataInitial } from "../dataProcessus"; 
-
-const processus = processusDataInitial
 
 const nonConformite = [
     {
         id: 1,
         code : "NC-001",
         titre: "Défaut de qualité sur lot de production",
-        processus : processus[0].name,
+        processus : "Production",
         description: "Problème identifié sur la ligne de production A avec non-respect des spécifications",
         severite: "Majeure",
         author: "Marie Dubois",
@@ -26,7 +23,7 @@ const nonConformite = [
         id: 2,
         code : "NC-002",
         titre: "Non Conformité 2",
-        processus : processus[1].name,
+        processus : "Production",
         description: "Description de la non conformité 2",
         severite: "Majeure",
         author: "Jean Martin",

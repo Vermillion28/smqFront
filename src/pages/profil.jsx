@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import LayoutRQ from '@/Layout/layoutResponsableQ';
 
 // Données mockées - à remplacer par vos appels API
 const userData = {
